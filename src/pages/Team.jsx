@@ -1,9 +1,14 @@
 import React from 'react'
+import NonTechnical from '../components/Team/NonTechnical';
+import Technical from '../components/Team/Technical';
 
 const Team = () => {
   return (
-    <div>Team</div>
-  )
+    <>
+      <NonTechnical />
+      <Technical />
+    </>
+  );
 }
 
 export default Team;
