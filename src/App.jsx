@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Events from './pages/Events';
 import Team from './pages/Team';
 import Sponsor from './pages/Sponsor';
-import Event from './pages/Event';
 import Layout from './layout/Layout';
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
           <Route exact path='/events' element={<Events />} />
           <Route exact path='/team' element={<Team />} />
           <Route exact path='/sponsor' element={<Sponsor />} />
-          <Route exact path='/events/:id' element={<Event />} />
         </Routes>
       </Layout>
     </Fragment>

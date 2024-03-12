@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <>
       <div className="main">
-        <div className="footer poppins-regular">
+        <div className="footer">
           <div className="bubbles">
             {Array.from({ length: 128 }, (_, i) => (
               <div
@@ -21,44 +20,44 @@ const Footer = () => {
               />
             ))}
           </div>
-          <div className="content ">
+          <div className="footer_content">
             <div>
               <div>
                 <b>Eldew</b>
-                <Link to="#">Secuce</Link>
-                <Link to="#">Drupand</Link>
-                <Link to="#">Oceash</Link>
-                <Link to="#">Ugefe</Link>
-                <Link to="#">Babed</Link>
+                <a href="#">Secuce</a>
+                <a href="#">Drupand</a>
+                <a href="#">Oceash</a>
+                <a href="#">Ugefe</a>
+                <a href="#">Babed</a>
               </div>
               <div>
                 <b>Spotha</b>
-                <Link to="#">Miskasa</Link>
-                <Link to="#">Agithe</Link>
-                <Link to="#">Scesha</Link>
-                <Link to="#">Lulle</Link>
+                <a href="#">Miskasa</a>
+                <a href="#">Agithe</a>
+                <a href="#">Scesha</a>
+                <a href="#">Lulle</a>
               </div>
               <div>
                 <b>Chashakib</b>
-                <Link to="#">Chogauw</Link>
-                <Link to="#">Phachuled</Link>
-                <Link to="#">Tiebeft</Link>
-                <Link to="#">Ocid</Link>
-                <Link to="#">Izom</Link>
-                <Link to="#">Ort</Link>
+                <a href="#">Chogauw</a>
+                <a href="#">Phachuled</a>
+                <a href="#">Tiebeft</a>
+                <a href="#">Ocid</a>
+                <a href="#">Izom</a>
+                <a href="#">Ort</a>
               </div>
               <div>
                 <b>Athod</b>
-                <Link to="#">Pamuz</Link>
-                <Link to="#">Vapert</Link>
-                <Link to="#">Neesk</Link>
-                <Link to="#">Omemanen</Link>
+                <a href="#">Pamuz</a>
+                <a href="#">Vapert</a>
+                <a href="#">Neesk</a>
+                <a href="#">Omemanen</a>
               </div>
             </div>
             <div>
-              <Link
+              <a
                 className="image"
-                to="https://codepen.io/z-"
+                href="https://codepen.io/z-"
                 target="_blank"
                 style={{ backgroundImage: 'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")' }}
               />
@@ -77,6 +76,7 @@ const Footer = () => {
               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
               result="blob"
             />
+            {/* feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect */}
           </filter>
         </defs>
       </svg>
