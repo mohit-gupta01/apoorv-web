@@ -74,10 +74,10 @@ function Header() {
                 <h3 className="social-title">Follow Us</h3>
                 <ul>
                   <li>
-                    <Link to="https://www.instagram.com/apoorv_iiitk?igsh=MWU4cGtuYXI2cDJneQ==" className="a-link">Instagram</Link>
+                    <Link to="https://www.instagram.com/apoorv_iiitk/" className="a-link">Instagram</Link>
                   </li>
                   <li>
-                    <Link to="#" className="a-link">YouTube</Link>
+                    <Link to="https://www.linkedin.com/company/92505348/admin/" className="a-link">LinkedIn</Link>
                   </li>
                 </ul>
               </div>
@@ -201,9 +201,9 @@ function Header() {
                     <Link to="#" className="a-link">+(02) - 094 980 547</Link>
                   </li>
                   <li>
-                    <Link to="#" className="a-link">info@extradesign.com</Link>
+                    <Link to="#" className="a-link">apoorv@iiitkottayam.ac.in</Link>
                   </li>
-                  <li>IIIT Kottayam Kerala </li>
+                  <li>IIIT Kottayam</li>
                 </ul>
               </div>
               <img

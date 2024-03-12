@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 const Footer = () => {
@@ -21,44 +22,43 @@ const Footer = () => {
             ))}
           </div>
           <div className="footer_content">
-            <div>
-              <div>
+            <div className=''>
+              <div className=''>
                 <b>Eldew</b>
-                <a href="#">Secuce</a>
-                <a href="#">Drupand</a>
-                <a href="#">Oceash</a>
-                <a href="#">Ugefe</a>
-                <a href="#">Babed</a>
+                <Link to="#">Secuce</Link>
+                <Link to="#">Drupand</Link>
+                <Link to="#">Oceash</Link>
+                <Link to="#">Ugefe</Link>
+                <Link to="#">Babed</Link>
               </div>
               <div>
                 <b>Spotha</b>
-                <a href="#">Miskasa</a>
-                <a href="#">Agithe</a>
-                <a href="#">Scesha</a>
-                <a href="#">Lulle</a>
+                <Link to="#">Miskasa</Link>
+                <Link to="#">Agithe</Link>
+                <Link to="#">Scesha</Link>
+                <Link to="#">Lulle</Link>
               </div>
               <div>
                 <b>Chashakib</b>
-                <a href="#">Chogauw</a>
-                <a href="#">Phachuled</a>
-                <a href="#">Tiebeft</a>
-                <a href="#">Ocid</a>
-                <a href="#">Izom</a>
-                <a href="#">Ort</a>
+                <Link to="#">Chogauw</Link>
+                <Link to="#">Phachuled</Link>
+                <Link to="#">Tiebeft</Link>
+                <Link to="#">Ocid</Link>
+                <Link to="#">Izom</Link>
+                <Link to="#">Ort</Link>
               </div>
               <div>
                 <b>Athod</b>
-                <a href="#">Pamuz</a>
-                <a href="#">Vapert</a>
-                <a href="#">Neesk</a>
-                <a href="#">Omemanen</a>
+                <Link to="#">Pamuz</Link>
+                <Link to="#">Vapert</Link>
+                <Link to="#">Neesk</Link>
+                <Link to="#">Omemanen</Link>
               </div>
             </div>
             <div>
-              <a
+              <Link
                 className="image"
-                href="https://codepen.io/z-"
-                target="_blank"
+                to="#"
                 style={{ backgroundImage: 'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")' }}
               />
               <p>©2019 Not Really</p>

@@ -59,7 +59,7 @@
     width: min(30vw, 450px);
     position: absolute;
     top: 50%;
-    left: 3rem;
+    left: 120px;
     transform: translateY(-50%);
     font: 400 0.85rem helvetica, sans-serif;
     color: white;

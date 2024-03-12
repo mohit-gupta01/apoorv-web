@@ -5,9 +5,12 @@ import { Icon } from '@iconify/react';
 
 const Technical = () => {
     return (
-        <div className='flex flex-col text-center gap-5 mt-10'>
-            <div className='header'>
+        <div className='relative flex flex-col text-center gap-5 mt-10'>
+            <div className='header p-10'>
                 <h1>Technical Team</h1>
+            </div>
+            <div className="hidden xl:block absolute top-0 left-[12vw] w-[20vw]">
+                <img src="/assets/images/nontech.png" alt="" />
             </div>
             <div class="container">
                 <div class="card cardi">
