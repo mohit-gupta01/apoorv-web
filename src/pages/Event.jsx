@@ -1,35 +1,29 @@
 import React from "react";
 import "./Event.css";
-
-
-import eventimg from "../../src/assets/event.jpg";
+import { Cards } from "../data/data";
+import { Link, useParams } from "react-router-dom";
 
 const Event = () => {
+  const { id } = useParams();
+  // console.log(id);
+  const data = Cards[id];
 
   return (
-    <div className="flex flex-row items-center gap-[4vw] px-[10vw] h-[90vh] w-full">
-      <div className="">
+    <div className="flex flex-col lg:flex-row items-center gap-[40px] lg:gap-[4vw] px-[10vw] h-fit lg:h-[90vh] w-full mt-[12vh] xl:mt-0">
+      <div className="w-[60vw] lg:w-[30vw]">
         <img
-          src={eventimg}
-          className="w-[30vw]"
-          alt="event image"
-
+          src={data.image}
+          alt=""
         />
       </div>
-      <div className="flex flex-col w-[40vw]">
-        <h1 className="font-poppins text-6xl font-bold leading-123 tracking-normal text-left" style={{ color: "#210240" }}>Event Name</h1>
+      <div className="flex flex-col w-[75vw] lg:w-[40vw]">
+        <h1 className="font-poppins text-6xl font-bold leading-123 tracking-normal text-center lg:text-left" style={{ color: "#210240" }}>{data.event_name}</h1>
         <br></br>
         <p className="font-poppins text-lg font-medium leading-15 tracking-normal text-justify" style={{ color: "#210240" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-          malesuada eget odio ac vehicula. Phasellus faucibus urna eget velit
-          maximus tristique. Aenean interdum maximus nisl vel convallis. In hac
-          habitasse platea dictumst. Ut vestibulum efficitur sapien et feugiat.
-          Maecenas non orci imperdiet, eleifend neque ac, venenatis nibh. In
-          lobortis neque vel odio iaculis, quis accumsan nisi varius. Ut
-          ultricies ex euismod libero porta ullamcorper.
+          {data.description}
         </p>
         <br></br>
-        <button className="register-btn" style={{ width: "150px", height: "40px", backgroundColor: "#023047", borderRadius: "4px", color: "white", fontSize: "20px", }}>Register</button>
+        <Link to={data.url} className="register-btn self-center lg:self-start py-2 px-8 w-fit" style={{ backgroundColor: "#023047", borderRadius: "4px", color: "white", fontSize: "20px", }}>Register</Link>
       </div>
     </div>
   );

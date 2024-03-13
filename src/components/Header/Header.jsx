@@ -30,7 +30,7 @@ function Header() {
               />
               <img
                 alt="Site Logo"
-                className="logo-secondary w-[200px]"
+                className="logo-secondary w-[30vw] md:w-[200px]"
                 src={logo_secondary}
               />
             </Link>
@@ -171,28 +171,12 @@ function Header() {
                         </Link>
                       </div>
                     </li>
-                    <li>
-                      <div className="header_title">
-                        <Link to="#" className="a-link" onClick={toggleOffcanvas}>
-                          <div className="menu-text">
-                            <span>G</span>
-                            <span>A</span>
-                            <span>L</span>
-                            <span>L</span>
-                            <span>E</span>
-                            <span>R</span>
-                            <span>Y</span>
-                          </div>
-                        </Link>
-                      </div>
-                    </li>
                   </ul>
                 </nav>
               </div>
             </div>
             <div className="offcanvas__right">
               <div className="offcanvas__search">
-
               </div>
               <div className="offcanvas__contact">
                 <h3>Get in touch</h3>

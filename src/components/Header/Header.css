@@ -480,7 +480,7 @@ li {
     .header__inner {
         padding: 10px 0;
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .header__nav-icon {
@@ -555,7 +555,7 @@ li {
     .header__inner {
         padding: 5px 0;
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .header__nav-icon {

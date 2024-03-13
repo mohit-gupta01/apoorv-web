@@ -125,6 +125,7 @@ html {
 body {
     background-color: #e9d5a6;
     font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
 }
 
 .hamburger-menu {
