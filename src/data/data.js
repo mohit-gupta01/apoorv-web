@@ -176,7 +176,7 @@ export const Cards = [
     },
     {
         url: "https://unstop.com/hackathons/innovis-ideathon-apoorv-2024-iiit-kottayam-924420",
-        image: "/assets/eventsImages/innovis.png",
+        image: "/assets/eventsImages/Innovis.png",
         color: '#F5FFB8',
         event_name: "Innovis-Ideathon",
         description: "Imagine, Ideate, Innovate! Join InnoVis, the ultimate ideathon where problems meet possibilities. Get a question and let your creativity soar to come up with an idea for a solution. No limits, just big ideas. Let's redefine possibilities together, one inventive vision at a time!",
