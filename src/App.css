@@ -67,3 +67,34 @@ body {
     margin-right: 0;
     margin-top: 0;
 }
+
+/* @media (max-width: 430px) {
+    .media
+    {
+        font-size: 50px;
+        width: 150px;
+    }
+    .para
+    {
+        width: 350px;
+        margin-top: -150px;
+    }
+    .header
+    {
+        margin-top: -100px;
+    }
+    .image-container1
+    { 
+     display: none;   
+    }
+    .image-container2
+    {
+        background-image: url("./images/circle.png");
+    }
+    .halfCircle
+    {
+        margin-left: -100px;
+        margin-top: -30px;
+    }
+    
+} */
