@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
+import { logo_black } from '../../assets';
 
 const Footer = () => {
   return (
@@ -21,48 +22,22 @@ const Footer = () => {
               />
             ))}
           </div>
-          <div className="footer_content">
-            <div className=''>
-              <div className=''>
-                <b>Eldew</b>
-                <Link to="#">Secuce</Link>
-                <Link to="#">Drupand</Link>
-                <Link to="#">Oceash</Link>
-                <Link to="#">Ugefe</Link>
-                <Link to="#">Babed</Link>
-              </div>
-              <div>
-                <b>Spotha</b>
-                <Link to="#">Miskasa</Link>
-                <Link to="#">Agithe</Link>
-                <Link to="#">Scesha</Link>
-                <Link to="#">Lulle</Link>
-              </div>
-              <div>
-                <b>Chashakib</b>
-                <Link to="#">Chogauw</Link>
-                <Link to="#">Phachuled</Link>
-                <Link to="#">Tiebeft</Link>
-                <Link to="#">Ocid</Link>
-                <Link to="#">Izom</Link>
-                <Link to="#">Ort</Link>
-              </div>
-              <div>
-                <b>Athod</b>
-                <Link to="#">Pamuz</Link>
-                <Link to="#">Vapert</Link>
-                <Link to="#">Neesk</Link>
-                <Link to="#">Omemanen</Link>
-              </div>
+          <div className="footer_content flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className='flex flex-col gap-2 w-full items-center md:items-start md:w-[300px]'>
+              <img src={logo_black} className='w-[10rem]' alt="" />
+              <div className='poppins text-[13px] leading-4 hidden md:block'>A fest that celebrates both the innumerous shades of our culture and one of its own kind.</div>
             </div>
-            <div>
-              <Link
-                className="image"
-                to="#"
-                style={{ backgroundImage: 'url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg")' }}
-              />
-              <p>©2019 Not Really</p>
-            </div>
+            <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
+                <ul className='flex flex-col gap-1'>
+                  <li>
+                    <Link to="#" className="a-link">+(02) - 094 980 547</Link>
+                  </li>
+                  <li>
+                    <Link to="#" className="a-link">apoorv@iiitkottayam.ac.in</Link>
+                  </li>
+                  <li>IIIT Kottayam</li>
+                </ul>
+              </div>
           </div>
         </div>
       </div>
@@ -76,7 +51,6 @@ const Footer = () => {
               values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
               result="blob"
             />
-            {/* feComposite(in="SourceGraphic" in2="blob" operator="atop") //After reviewing this after years I can't remember why I added this but it isn't necessary for the blob effect */}
           </filter>
         </defs>
       </svg>
