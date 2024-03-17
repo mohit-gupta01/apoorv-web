@@ -1,5 +1,12 @@
 export const Cards = [
     {
+        url: "https://unstop.com/p/flight-to-innovation-a-two-day-drone-building-workshop-apoorv-2024-iiit-kottayam-925127",
+        image: "/assets/eventsImages/Drone.png",
+        color: '#D4E6F4',
+        event_name: "Drone Workshop",
+        description: "Discover the world of drones firsthand! Gain flight skills, capture stunning aerial shots, and master safety guidelines in our expert-led workshop. Elevate your drone game with us today!",
+    },
+    {
         url: "https://unstop.com/events/solo-sizzle-apoorv-2024-iiit-kottayam-920668",
         image: "/assets/eventsImages/SoloSizzle.png",
         color: '#49A1C9',
