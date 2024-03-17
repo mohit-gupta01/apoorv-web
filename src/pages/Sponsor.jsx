@@ -1,8 +1,8 @@
 import React from "react";
 import MainGroupSend from "../images/MainGroupSand.png";
 import names from "../images/names.png";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
+// import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/js/bootstrap.js";
 import halfCircle from "../images/halfCircle.png";
 import events from "../images/events.png";
 import events1 from "../images/events1.png";
