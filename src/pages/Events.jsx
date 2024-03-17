@@ -68,7 +68,7 @@ const Events = () => {
             <div className="content">
               <h2 className="title">{card.event_name}</h2>
               <p className="copy">{card.description.slice(0, 200)}...</p>
-              <Link to={`/events/${index}`} className="btn rounded-md">
+              <Link to={`/events/${category}/${index}`} className="btn rounded-md">
                 View Event
               </Link>
             </div>
