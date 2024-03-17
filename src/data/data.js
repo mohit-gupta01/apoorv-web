@@ -8,6 +8,14 @@ export const Cards = [
         category: "Technical"
     },
     {
+        url: "https://unstop.com/hackathons/codequest-apoorv-2024-iiit-kottayam-923729",
+        image: "/assets/eventsImages/codequest.png",
+        color: '#021035',
+        event_name: "Code Quest",
+        description: "Prepare for a coding adventure like no other at CodeQuest, where innovation knows no bounds. Break free from technical constraints as you tackle challenges designed to push your skills to the limit. With rounds tailored to test your debugging finesse and algorithmic agility, this competition promises an electrifying experience. Whether you're a C++, Java, or Python enthusiast, join us on this quest for coding excellence and unleash your full potential at CodeQuest!",
+        category: "Technical"
+    },
+    {
         url: "https://unstop.com/events/solo-sizzle-apoorv-2024-iiit-kottayam-920668",
         image: "/assets/eventsImages/SoloSizzle.png",
         color: '#49A1C9',
