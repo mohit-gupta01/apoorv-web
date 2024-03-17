@@ -4,13 +4,11 @@ import { useState } from "react";
 import { Cards } from "../data/data";
 
 const Events = () => {
-  const [eventtype, setEventtype] = useState("technical");
+  const [category, setCategory] = useState("Technical");
 
-  function changeeventtype(event, variable) {
-    setEventtype(variable);
+  const handleChangeCategory = (item) => {
+    setCategory(item);
   }
-
-  
 
   return (
     <div className="events-conntainer p-10 mt-10 md:mt-2">
@@ -21,10 +19,10 @@ const Events = () => {
             className="events-btn"
             style={{
               backgroundColor:
-                eventtype === "technical" ? "#023047" : "#e9d5a6",
-              color: eventtype === "technical" ? "#FFFFFF" : "#023047",
+                category === "Technical" ? "#023047" : "#e9d5a6",
+              color: category === "Technical" ? "#FFFFFF" : "#023047",
             }}
-            onClick={(e) => changeeventtype(e, "technical")}
+            onClick={() => handleChangeCategory("Technical")}
           >
             Technical
           </button>
@@ -33,10 +31,10 @@ const Events = () => {
           <button
             className="events-btn"
             style={{
-              backgroundColor: eventtype === "cultural" ? "#023047" : "#e9d5a6",
-              color: eventtype === "cultural" ? "#FFFFFF" : "#023047",
+              backgroundColor: category === "Cultural" ? "#023047" : "#e9d5a6",
+              color: category === "Cultural" ? "#FFFFFF" : "#023047",
             }}
-            onClick={(e) => changeeventtype(e, "cultural")}
+            onClick={() => handleChangeCategory("Cultural")}
           >
             Cultural
           </button>
@@ -45,17 +43,17 @@ const Events = () => {
           <button
             className="events-btn"
             style={{
-              backgroundColor: eventtype === "others" ? "#023047" : "#e9d5a6",
-              color: eventtype === "others" ? "#FFFFFF" : "#023047",
+              backgroundColor: category === "Others" ? "#023047" : "#e9d5a6",
+              color: category === "Others" ? "#FFFFFF" : "#023047",
             }}
-            onClick={(e) => changeeventtype(e, "others")}
+            onClick={() => handleChangeCategory("Others")}
           >
             Others
           </button>
         </li>
       </ul>
       <main className="page-content">
-        {Cards.map((card, index) => (
+        {Cards.filter((item) => item.category === category).map((card, index) => (
           <div
             key={index}
             className="card"
