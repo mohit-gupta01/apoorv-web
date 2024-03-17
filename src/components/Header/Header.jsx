@@ -1,4 +1,4 @@
-import { logo, logo_secondary, menu } from "../../assets";
+import { logo, logo_secondary } from "../../assets";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
@@ -124,22 +124,6 @@ function Header() {
                             <span>N</span>
                             <span>T</span>
                             <span>S</span>
-                          </div>
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="header_title d-flex">
-                        <Link to="/events" className="a-link" onClick={toggleOffcanvas}>
-                          <div className="menu-text">
-                            <span>T</span>
-                            <span>I</span>
-                            <span>M</span>
-                            <span>E</span>
-                            <span>L</span>
-                            <span>I</span>
-                            <span>N</span>
-                            <span>E</span>
                           </div>
                         </Link>
                       </div>
