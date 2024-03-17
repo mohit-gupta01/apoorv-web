@@ -28,16 +28,16 @@ const Footer = () => {
               <div className='poppins text-[13px] leading-4 hidden md:block'>A fest that celebrates both the innumerous shades of our culture and one of its own kind.</div>
             </div>
             <div className="footer__contact poppins text-[13px] leading-4 font-medium flex flex-col gap-1 text-center md:text-right">
-                <ul className='flex flex-col gap-1'>
-                  <li>
-                    <Link to="#" className="a-link">+(02) - 094 980 547</Link>
-                  </li>
-                  <li>
-                    <Link to="#" className="a-link">apoorv@iiitkottayam.ac.in</Link>
-                  </li>
-                  <li>IIIT Kottayam</li>
-                </ul>
-              </div>
+              <ul className='flex flex-col gap-1'>
+                <li>
+                  <Link to="#" className="a-link">+(02) - 094 980 547</Link>
+                </li>
+                <li>
+                  <Link to="#" className="a-link">apoorv@iiitkottayam.ac.in</Link>
+                </li>
+                <li>IIIT Kottayam</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

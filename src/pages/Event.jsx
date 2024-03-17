@@ -18,11 +18,11 @@ const Event = () => {
       </div>
       <div className="flex flex-col w-[75vw] lg:w-[60vw] gap-4">
         <h1 className="poppins font-bold xl:text-[80px] lg:text-[80px] md:text-[70px] text-[40px] leading-[3rem] lg:leading-[6rem] text-center lg:text-left" style={{ color: "#210240" }}>{data.event_name}</h1>
-        
+
         <p className="poppins-regular text-[#000000] lg:text-[16px] md:text-[14px] text-[14px] tracking-wide leading-6 font-medium text-center lg:text-left" style={{ color: "#210240" }}>
           {data.description}
         </p>
-  
+
         <Link to={data.url} className="register-btn self-center lg:self-start py-2 px-8 w-fit" style={{ backgroundColor: "#023047", borderRadius: "4px", color: "white", fontSize: "20px", }}>Register</Link>
       </div>
     </div>

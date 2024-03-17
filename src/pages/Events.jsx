@@ -9,9 +9,7 @@ const Events = () => {
   function changeeventtype(event, variable) {
     setEventtype(variable);
   }
-
   
-
   return (
     <div className="events-conntainer p-10 mt-10 md:mt-2">
       <h1 className="events-h1">Events</h1>
