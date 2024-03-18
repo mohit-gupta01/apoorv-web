@@ -50,7 +50,7 @@ function Header() {
           </div>
           <div className="header__support">
             <p>
-              Contact US <Link to="#" className="a-link">+9 587 325 902</Link>
+              Contact US <Link to="#" className="a-link">+91 8247340743</Link>
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ function Header() {
                   </li>
                 </ul>
               </div>
-              <div className="offcanvas__links">
+              <div className="offcanvas__links" style={{opacity: 0}}>
                 <ul>
                   <li>
                     <Link to="#" className="a-link">About</Link>
@@ -155,6 +155,24 @@ function Header() {
                         </Link>
                       </div>
                     </li>
+                    <li>
+                      <div className="header_title">
+                        <Link to="/developers" className="a-link" onClick={toggleOffcanvas}>
+                          <div className="menu-text">
+                            <span>D</span>
+                            <span>E</span>
+                            <span>V</span>
+                            <span>E</span>
+                            <span>L</span>
+                            <span>O</span>
+                            <span>P</span>
+                            <span>E</span>
+                            <span>R</span>
+                            <span>S</span>
+                          </div>
+                        </Link>
+                      </div>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -166,7 +184,7 @@ function Header() {
                 <h3>Get in touch</h3>
                 <ul>
                   <li>
-                    <Link to="#" className="a-link">+(02) - 094 980 547</Link>
+                    <Link to="#" className="a-link">+91 8247340743</Link>
                   </li>
                   <li>
                     <Link to="#" className="a-link">apoorv@iiitkottayam.ac.in</Link>

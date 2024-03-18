@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.card {
+.profilecard {
   height: 379px;
   width: 300px;
   background: #808080;
@@ -62,6 +62,8 @@
 
 .card-title {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
   color: #ffffff;
   margin: 20px;
   opacity: 0;
@@ -78,8 +80,8 @@
   position: absolute;
   fill: #fff;
   color: #fff;
-  height: 130px;
-  top: 226px;
+  height: 100px;
+  top: 250px;
   width: 50px;
   display: flex;
   flex-direction: column;

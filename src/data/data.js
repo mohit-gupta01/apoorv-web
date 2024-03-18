@@ -264,3 +264,80 @@ export const Cards = [
         category: "Technical"
     },
 ];
+
+
+export const TechnicalTeam = [
+    {
+        name: "Mohit Gupta",
+        image: "/assets/techTeamImages/mohit.jpg",
+        linkedin: "https://www.linkedin.com/in/mohit-gupta0111/",
+        instagram: "https://www.instagram.com/_mohit_gupta01/?utm_source=qr&r=nametag",
+    },
+    {
+        name: "Gaurav Yadav",
+        image: "/assets/techTeamImages/gaurav.jpg",
+        linkedin: "https://www.linkedin.com/in/gaurav-yadav-091734287/",
+        instagram: "https://www.instagram.com/gaurav2201yadav?igsh=MWlybjA4NmFxendxYw==",
+    },
+    {
+        name: "Biswadeep Giri",
+        image: "/assets/techTeamImages/biswa.jpg",
+        linkedin: "https://www.linkedin.com/in/biswadeep-giri-498415224/",
+        instagram: "https://www.instagram.com/giribiswadeep?igsh=dW5jdHFrNTFvMG84",
+    },
+    {
+        name: "Mahendra",
+        image: "/assets/techTeamImages/mahendra.jpg",
+        linkedin: "https://www.linkedin.com/in/mahendra-kumar-dambiwal-59351b23b/",
+        instagram: "https://www.instagram.com/mahi.hanu121/",
+    },
+    {
+        name: "Abhishek Raj",
+        image: "/assets/techTeamImages/abhishek.jpg",
+        linkedin: "https://www.linkedin.com/in/abhishek-raj6299/",
+        instagram: "https://www.instagram.com/crimmson.guy?igsh=YTlnNGZzNjJ5bmd0",
+    },
+]
+
+export const ApoorvTeam = [
+    // {
+    //     name: "Aditya",
+    //     image: "/assets/apoorvTeamImages/aditya.jpg",
+    // },
+    {
+        name: "Kirtan",
+        image: "/assets/apoorvTeamImages/kirtan.jpg",
+    },
+    // {
+    //     name: "Atul",
+    //     image: "/assets/apoorvTeamImages/atul.jpg",
+    // },
+    {
+        name: "Saketh",
+        image: "/assets/apoorvTeamImages/saketh.jpg",
+    },
+    {
+        name: "Blaize Tom",
+        image: "/assets/apoorvTeamImages/blaize.jpg",
+    },
+    {
+        name: "Ajay",
+        image: "/assets/apoorvTeamImages/ajay.jpg",
+    },
+    {
+        name: "Shivani",
+        image: "/assets/apoorvTeamImages/shivani.jpg",
+    },
+    {
+        name: "Priyatham",
+        image: "/assets/apoorvTeamImages/priyatam.jpg",
+    },
+    {
+        name: "Yaseen",
+        image: "/assets/apoorvTeamImages/yaseen.jpg",
+    },
+    {
+        name: "Rakshit",
+        image: "/assets/apoorvTeamImages/rakshit.jpg",
+    },
+]
