@@ -24,6 +24,20 @@
   position: relative;
 }
 
+.card{
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .profilecard {
   height: 379px;
   width: 300px;
