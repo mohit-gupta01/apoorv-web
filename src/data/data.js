@@ -300,18 +300,14 @@ export const TechnicalTeam = [
 ]
 
 export const ApoorvTeam = [
-    // {
-    //     name: "Aditya",
-    //     image: "/assets/apoorvTeamImages/aditya.jpg",
-    // },
     {
-        name: "Kirtan",
-        image: "/assets/apoorvTeamImages/kirtan.jpg",
+        name: "Aditya",
+        image: "/assets/apoorvTeamImages/aditya.jpg",
     },
-    // {
-    //     name: "Atul",
-    //     image: "/assets/apoorvTeamImages/atul.jpg",
-    // },
+    {
+        name: "Atul",
+        image: "/assets/apoorvTeamImages/atul.jpg",
+    },
     {
         name: "Saketh",
         image: "/assets/apoorvTeamImages/saketh.jpg",
