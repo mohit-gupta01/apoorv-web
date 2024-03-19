@@ -54,10 +54,6 @@ body {
     font-style: normal;
 }
 
-.sponsor
-{
+.sponsor {
     background-color: #090E2B;
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100vh;
 }

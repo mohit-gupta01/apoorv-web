@@ -1,9 +1,5 @@
 import React from "react";
 import MainGroupSend from "../images/MainGroupSand.png";
-import names from "../images/names.png";
-// import "bootstrap/dist/css/bootstrap.css";
-// import "bootstrap/dist/js/bootstrap.js";
-import halfCircle from "../images/halfCircle.png";
 import events from "../images/events.png";
 import events1 from "../images/events1.png";
 import tiers from "../images/tiers.png";
@@ -17,132 +13,138 @@ import presponsor1 from "../images/presponsor1.png";
 import presponsor2 from "../images/presponsor2.png";
 import circle1 from "../images/circle1.png";
 import circle from "../images/circle.png";
+import { useEffect } from "react";
 
 const Sponsor = () => {
-  return (
-    <div className="sponsor relative">
-      <div className="relative">
-        <div className="mt-[115px]">
-          <p className="w-[896px] h-[264px] ml-[52px] poppins-regular font-bold xl:text-9xl lg:text-9xl md:text-7xl text-4xl text-[#E5D1A6] z-10 media">
-            WHY SPONSOR US?
-          </p>
-          <span className="w-[210px] h-[41px] absolute top-[397px] ml-[52px] text-[#E5D1A6] poppins-regular font-semibold text-[40px] leading-[40.8px] mt-0">
-            ABOUT US
-          </span>
-          <p className="flex flex-wrap border-box poppins-regular absolute top-[495px] font-medium text-[36px] leading-10 xl:w-[650px] lg:w-[600px] md:w-[550px] sm:w-[400px] w-[350px] text-[#E5D1A6] ml-[52px] text-justify para">
-            Lorem ipsum dolor sit amet consectetur. Condimentum et aenean nunc
-            vel sagittis nullam lacus vehicula ut. Sit viverra gravida nunc et
-            amet vitae eget placerat. Ut tellus sed mauris turpis ut etiam
-            condimentum augue. Nunc sed pretium tellus vel aliquam ullamcorper
-            habitasse tempus.
-          </p>
-        </div>
-      </div>
-      <div className="w-full">
-        <img
-          className="absolute top-[-4px] right-0"
-          src={MainGroupSend}
-          width={680}
-          height={1199.36}
-          alt="MainGroupSend"
-        />
-      </div>
 
-      <div className="xl:mt-[850px] lg:mt-[800px] md:mt-[800px] mt-[1100px] relative left-6 xl:w-[1400px] lg:w-[1150px] md:w-[740px] sm:w-[900px] w-[400px] xl:h-[800px] lg:h-[700px] md:h-[600px] h-[250px]">
-      <img
-            className="block md:hidden mt-[-60px]"
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="sponsor pb-[100px]">
+      <div className="xl:ml-[120px]">
+        <div className=" min-h-[50vh]">
+          <div className="flex flex-col mx-auto gap-4 my-auto absolute top-1/2  transform -translate-y-1/2 xl:w-[700px] lg:w-[450px] md:[350px] w-[350px] ml-[20px] md:ml-[52px]">
+            <p className="poppins font-extrabold xl:text-[100px] lg:text-[80px] md:text-[70px] text-[60px] leading-[6rem] text-[#FFB703] md:text-[#E5D1A6] z-10 media pt-[100px]">
+              WHY SPONSOR US?
+            </p>
+            <h3 className="flex flex-wrap border-box poppins-regular lg:text-[26px] md:text-[22px] text-[20px] tracking-wide leading-10 font-semibold text-[#FFB703] md:text-[#E5D1A6] text-justify para">About Us</h3>
+            <p className="flex flex-wrap border-box poppins-regular lg:text-[16px] md:text-[14px] text-[14px] tracking-wide leading-7 font-medium text-[#FFB703] md:text-[#E5D1A6] text-justify para">
+              In the peaceful setting of Kottayam, Kerala, this campus is blessed with abundant verdant greenery, creating an ideal environment for students to learn and grow together. The beauty of IIIT Kottayam transcends its academic prowess, integrating elements that cultivate an environment conducive to learning, stimulate creativity, and inspire students to push the frontiers of knowledge and talent alike.<br />
+              We are proud to present the much awaited second edition of Apoorv, our annual techno-cultural fest! True to its name, Apoorv is a one of a kind extravaganza where technology and culture comes together like never before. Every individual is bound to find something that resonates with them in this grand fest
+            </p>
+          </div>
+        </div>
+        <div className="">
+          <img
+            className="absolute right-0 top-0 w-[40rem] z-0 opacity-30"
+            src={MainGroupSend}
+            // width={680}
+            // height={1199.36}
+            alt="MainGroupSend"
+          />
+        </div>
+
+        <div className="flex items-center justify-center mt-[100vh]">
+          <img
+            className="block md:hidden w-[80vw]"
             src={circle}
             alt="SmallScreenImage"
           />
-          <img className="hidden md:block" src={circle1} alt="evnts" />
-      </div>
+          <img className="hidden md:block w-[70vw]" src={circle1} alt="evnts" />
+        </div>
 
-      <div className="xl:mt-[100px] lg:mt-[90px] md:mt-[0px] absolute left-[100px]  xl:w-[1300px] lg:w-[1000px] md:w-[650px] sm:w-[600px] w-[400px] xl:ml-0 lg:-ml-8  md:-ml-5 -ml-[80px]">
-        <div className="relative">
+        <div className="flex items-center justify-center ">
           <img
-            className="block md:hidden"
+            className="block md:hidden w-[80vw]"
             src={events1}
             alt="SmallScreenImage"
           />
-          <img className="hidden md:block" src={events} alt="evnts" />
+          <img className="hidden md:block w-[70vw]" src={events} alt="evnts" />
         </div>
-      </div>
-      <div className="xl:mt-[1000px] lg:mt-[900px] md:mt-[800px] sm:mt-[700px] mt-[700px]">
-        <h1 className="font-normal xl:text-8xl lg:text-7xl :text-6xl sm:text-5xl text-4xl poppins-regular w-[708px] h-[130px] text-[#E5D1A6] ml-[24px] xl:mt-0 lg:mt-0 md:-mt-[300px]">
-          SPONSORSHIP TIERS
-        </h1>
-        <div className="xl:w-[1350px] lg:w-[1300px] md:w-[740px] sm:w-[1100px] w-[400px]">
-          <img
-            className="ml-[20px] xl:mt-[100px] lg:mt-[50px] md:mt-[-30px] sm:mt-[-10px] -mt-[50px]"
-            src={tiers}
-            alt="alt"
-          />
-        </div>
-      </div>
-      <div className="mt-5">
-        <div
-          id="carouselExampleAutoplaying"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src={platinum} className="d-block w-90" alt="platinum" />
-            </div>
-            <div className="carousel-item">
-              <img src={gold} className="d-block w-90" alt="gold" />
-            </div>
-            <div className="carousel-item">
-              <img src={silver} className="d-block w-90" alt="silver" />
-            </div>
-            <div className="carousel-item">
-              <img src={bronze} className="d-block w-90" alt="bronze" />
-            </div>
-            <div className="carousel-item">
-              <img src={event} className="d-block w-90" alt="event" />
-            </div>
+        <div className="flex flex-col items-center justify-center mt-[50px] lg:mt-[100px] w-full">
+          <h1 className="font-normal xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl text-4xl poppins-regular text-[#E5D1A6]">
+            SPONSORSHIP TIERS
+          </h1>
+          <div className="w-[80vw] lg:w-[70vw]">
+            <img
+              className="lg:ml-[20px] xl:mt-[100px] mt-[50px]"
+              src={tiers}
+              alt="alt"
+            />
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next"
-          >
-            <span classn="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
+        <div className="mt-5">
+          <div
+            id="carouselExampleAutoplaying"
+            className="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={platinum} className="d-block w-90" alt="platinum" />
+              </div>
+              <div className="carousel-item">
+                <img src={gold} className="d-block w-90" alt="gold" />
+              </div>
+              <div className="carousel-item">
+                <img src={silver} className="d-block w-90" alt="silver" />
+              </div>
+              <div className="carousel-item">
+                <img src={bronze} className="d-block w-90" alt="bronze" />
+              </div>
+              <div className="carousel-item">
+                <img src={event} className="d-block w-90" alt="event" />
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <span
+                classn="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
 
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-[#E5D1A6] w-[566px] h-[78px] xl:text-[82.45px] lg:text-[70px] md:text-[60px] text-[50px] text-center leading-[77.89px] font-bold">
-          Title Sponsor
-        </p>
-        <p className="text-[#E5D1A6] xl:w-[205px] lg:w-[200px] md:w-[205px] h-[43.84px] text-[36.68px] xl:leading-[30.65px] lg:leading-[25.65px] md:leading-[20.65px] leading-[15.65px] font-bold">
-          Rs 3 Lakhs
-        </p>
-        <div className="xl:w-[1130px] lg:w-[1030px] md:w-[730px] sm:w-[630px] w-[400px]"><img src={title} alt="title" /></div>
-      </div>
-      <div className="flex flex-col justify-center items-center xl:mt-[158px] lg:mt-[150px] md:mt-[140px] sm:mt-[130px] mt-5 gap-[85px]">
-        <p className="text-[#E5D1A6] w-[892px] h-[79px] xl:text-[84px] lg:text-[80px] md:text-[64px] sm:text-[54px] text-[35px] text-center leading-[79.36px] font-bold">
-          PREVIOUS SPONSORS
-        </p>
-  <div className="flex flex-col gap-11 xl:mt-0 lg:mt-0 md:mt-1 sm:mt-1 -mt-[90px]  xl:w-[1350px] lg:w-[1300px] md:w-[750px] sm:w-[600px] w-[380px]">
-  <img src={presponsor1} alt="sponsors" />
-  <img src={presponsor2}  alt="sponsors" />
-  </div>
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-[#E5D1A6] w-[320px] md:w-[566px] h-[78px] xl:text-[82.45px] lg:text-[70px] md:text-[60px] text-[25px] text-center leading-[77.89px] font-bold">
+            Title Sponsor
+          </p>
+          <p className="text-[#E5D1A6] xl:w-[205px] lg:w-[200px] md:w-[205px] h-[43.84px] text-[25px] xl:leading-[30.65px] lg:leading-[25.65px] md:leading-[20.65px] leading-[15.65px] font-bold">
+            Rs 3 Lakhs
+          </p>
+          <div className="xl:w-[1130px] lg:w-[900px] md:w-[730px] sm:w-[630px] w-[400px]">
+            <img src={title} alt="title" />
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center xl:mt-[158px] lg:mt-[150px] md:mt-[140px] sm:mt-[130px] mt-5 gap-[85px]">
+          <p className="text-[#E5D1A6] w-[300px] md:w-[700px] lg:w-[892px] h-[79px] xl:text-[84px] lg:text-[80px] md:text-[64px] sm:text-[54px] text-[25px] text-center md:leading-[79.36px] font-bold">
+            PREVIOUS SPONSORS
+          </p>
+          <div className="flex flex-col gap-11 xl:mt-0 lg:mt-0 md:mt-1 sm:mt-1 -mt-[90px]  xl:w-[1110px] lg:w-[900px] md:w-[750px] sm:w-[600px] w-[380px]">
+            <img src={presponsor1} alt="sponsors" />
+            <img src={presponsor2} alt="sponsors" />
+          </div>
+        </div>
       </div>
     </div>
   );

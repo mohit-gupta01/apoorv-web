@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.card{
+.card {
   height: 379px;
   width: 300px;
   background: #808080;
@@ -38,6 +38,7 @@
   align-items: center;
   position: relative;
 }
+
 .profilecard {
   height: 379px;
   width: 300px;
@@ -101,4 +102,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+@media screen and (max-width :768px) {
+  .cardi {
+    background-size: 350px;
+  }
+
+  .cardi .border {
+    border: 2px solid white;
+  }
+
+  .cardi .card-title {
+    opacity: 1;
+  }
+
+  .cardi .fa {
+    opacity: 1;
+  }
 }

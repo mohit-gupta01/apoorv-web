@@ -1,11 +1,13 @@
 import "./Events.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Cards } from "../data/data";
 
 const Events = () => {
   const [category, setCategory] = useState("Technical");
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleChangeCategory = (item) => {
     setCategory(item);
   }

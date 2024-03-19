@@ -81,7 +81,7 @@ function Header() {
                   </li>
                 </ul>
               </div>
-              <div className="offcanvas__links" style={{opacity: 0}}>
+              <div className="offcanvas__links" style={{ opacity: 0 }}>
                 <ul>
                   <li>
                     <Link to="#" className="a-link">About</Link>
