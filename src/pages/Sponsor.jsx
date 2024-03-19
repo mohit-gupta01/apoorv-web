@@ -25,11 +25,11 @@ const Sponsor = () => {
     <div className="sponsor pb-[100px]">
       <div className="xl:ml-[120px]">
         <div className=" min-h-[50vh]">
-          <div className="flex flex-col mx-auto gap-4 my-auto absolute top-1/2  transform -translate-y-1/2 xl:w-[700px] lg:w-[450px] md:[350px] w-[350px] ml-[20px] md:ml-[52px]">
-            <p className="poppins font-extrabold xl:text-[100px] lg:text-[80px] md:text-[70px] text-[60px] leading-[6rem] text-[#FFB703] md:text-[#E5D1A6] z-10 media pt-[100px]">
+          <div className="flex flex-col mx-auto gap-4 my-auto absolute top-1/2 transform -translate-y-1/2 xl:w-[700px] lg:w-[450px] md:[350px] w-[350px] ml-[20px] md:ml-[52px]">
+            <p className="poppins font-extrabold xl:text-[100px] lg:text-[80px] md:text-[70px] text-[60px] leading-[6rem] text-[#FFB703] md:text-[#E5D1A6] z-10 media pt-[150px] md:pt-[180px] xl:pt-[0px]">
               WHY SPONSOR US?
             </p>
-            <h3 className="flex flex-wrap border-box poppins-regular lg:text-[26px] md:text-[22px] text-[20px] tracking-wide leading-10 font-semibold text-[#FFB703] md:text-[#E5D1A6] text-justify para">About Us</h3>
+            <h3 className="flex flex-wrap border-box poppins-regular lg:text-[32px] md:text-[26px] text-[20px] tracking-wide leading-10 font-semibold text-[#FFB703] md:text-[#E5D1A6] text-justify para">About Us</h3>
             <p className="flex flex-wrap border-box poppins-regular lg:text-[16px] md:text-[14px] text-[14px] tracking-wide leading-7 font-medium text-[#FFB703] md:text-[#E5D1A6] text-justify para">
               In the peaceful setting of Kottayam, Kerala, this campus is blessed with abundant verdant greenery, creating an ideal environment for students to learn and grow together. The beauty of IIIT Kottayam transcends its academic prowess, integrating elements that cultivate an environment conducive to learning, stimulate creativity, and inspire students to push the frontiers of knowledge and talent alike.<br />
               We are proud to present the much awaited second edition of Apoorv, our annual techno-cultural fest! True to its name, Apoorv is a one of a kind extravaganza where technology and culture comes together like never before. Every individual is bound to find something that resonates with them in this grand fest
@@ -46,7 +46,7 @@ const Sponsor = () => {
           />
         </div>
 
-        <div className="flex items-center justify-center mt-[100vh]">
+        <div className="flex items-center justify-center mt-[70vh] md:mt-[80vh] xl:mt-[70vh]">
           <img
             className="block md:hidden w-[80vw]"
             src={circle}
